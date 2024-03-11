@@ -1,0 +1,55 @@
+.contact{
+    h2{
+        color: $white;
+    }
+    .shape{
+        &.shape-1{
+            top: 20px;
+            left: 0;
+            @include media-query(768px){ 
+                display: none;
+            }
+        }
+        &.shape-2{
+            top: 20px;
+            left: 40%;
+        }
+        &.shape-3{
+            bottom: 50px;
+            left: 10%;
+            @include media-query(490px){ 
+                bottom: 10px;
+            }
+        }
+        &.shape-4{
+            bottom: 50px;
+            right: 0%;
+            @include media-query(492px){ 
+                display: none;
+            }
+        }
+        &.shape-5{
+            bottom: 50%;
+            right: 0%;
+            @include media-query(768px){ 
+                display: none;
+            }
+        }
+    }
+}
+.contact-2{
+    .contact-links{
+        p,a{
+            font-weight: 400;
+        }
+        .border-right{
+            border-right: 2px solid $gray-3!important;
+            margin-right: 50px;
+            @include media-query(992px){ 
+                border: none!important;
+                margin: 0;
+            }
+
+        }
+    }
+}

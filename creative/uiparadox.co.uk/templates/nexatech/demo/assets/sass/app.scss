@@ -1,0 +1,135 @@
+/*---------------------------------------------"
+Template Name: Nexatech
+Template URL: https://techpedia.co.uk/template/nexatech
+Description: Nexatech - IT Solutions & Digial Agencies
+Version: 1.0.0
+
+===============================================   
+STYLE SHEET INDEXING
+|
+|___ Fonts
+|___ Variables
+|___ Reset Styles
+|___ Responsive
+|___ Spacing
+|___ Helper Classes
+|___ Buttons
+|___ Headings
+|___ Layout Styles
+|___ END STYLE SHEET INDEXING
+
+--------------------------------------------*/
+
+/*-------------------------
+    Fonts
+-------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*-------------------------
+    Variables
+-------------------------*/
+$accent-1: #5956E9;
+$accent-2: #2522BA;
+$accent-3: #D4F843;
+$gradient: linear-gradient(335.9deg, #38000C -45.32%, #D11B41 61.98%, #2B0009 162.78%);
+$font-primary: 'Poppins', sans-serif;
+$font-sec: 'Open Sans', sans-serif;
+$font-awesome: "Font Awesome 5 Pro";
+$transition: all 0.5s ease-in-out;
+$black: #0C0D0D;
+$black-1: #27272E;
+$white: #FEFEFE;
+$white-1: #C0C0C0;
+$gray-1: #5A5A5A;
+$gray-2: #898E8F;
+$gray-3: #AAB1B4;
+$gray-4: #DFE5E8;
+$font-149: 149px;
+$font-119: 119px;
+$font-95: 95px;
+$font-88: 88px;
+$font-76: 76px;
+$font-61: 61px;
+$font-49:49px;
+$font-40:40px;
+$font-39:39px;
+$font-31:31px;
+$font-25:25px;
+$font-20:20px;
+$font-16:16px;
+$font-14:14px;
+$section-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+$strong-shadow:67px 116px 54px rgba(0, 0, 0, 0.03), 38px 66px 45px rgba(0, 0, 0, 0.1), 17px 29px 34px rgba(0, 0, 0, 0.17), 4px 7px 18px rgba(0, 0, 0, 0.2), 0px 0px 0px rgba(0, 0, 0, 0.2);
+$soft-shadow:41px 71px 33px rgba(0, 0, 0, 0.01), 23px 40px 28px rgba(0, 0, 0, 0.05), 10px 18px 20px rgba(0, 0, 0, 0.09), 3px 4px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+$header-shadow:77px 0px 22px rgba(0, 0, 0, 0.01), 49px 0px 20px rgba(0, 0, 0, 0.04), 28px 0px 17px rgba(0, 0, 0, 0.15), 12px 0px 12px rgba(0, 0, 0, 0.26), 3px 0px 7px rgba(0, 0, 0, 0.29), 0px 0px 0px rgba(0, 0, 0, 0.3);
+$header-light-shadow: 49px 0px 20px rgba(0, 0, 0, 0.01), 28px 0px 17px rgba(0, 0, 0, 0.03), 12px 0px 12px rgba(0, 0, 0, 0.04), 3px 0px 7px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+
+/*-------------------------
+    Responsive
+-------------------------*/
+@import "helpers/mixins";
+
+/*-------------------------
+    Reset Styles
+-------------------------*/
+@import "basic/basic";
+ 
+/*-------------------------
+    Spacing
+-------------------------*/
+@import "helpers/spacing";
+
+/*-------------------------
+    Helper Classes
+-------------------------*/
+@import "helpers/classes";
+
+/*-------------------------
+  Buttons
+-------------------------*/
+@import "elements/buttons";
+
+/*-------------------------
+  Headings
+-------------------------*/
+@import "elements/heading";
+
+/*-------------------------
+  Preloader Styles
+-------------------------*/
+@import "layout/preloader";
+
+/*-------------------------
+  Color Mode Styles
+-------------------------*/
+@import "layout/colorMode";
+
+// @import "layout/modal";
+
+@import "layout/header";
+
+@import "layout/hero-banner";
+
+@import "layout/about";
+
+@import "layout/work";
+
+@import "layout/testimonial";
+
+@import "layout/contact";
+
+@import "layout/services";
+
+@import "layout/pricing";
+
+@import "layout/blog";
+
+@import "layout/achievement";
+
+@import "layout/team";
+
+@import "layout/inner-banner";
+
+@import "layout/faq";
+
+@import "layout/404";

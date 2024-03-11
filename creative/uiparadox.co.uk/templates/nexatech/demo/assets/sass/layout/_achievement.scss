@@ -1,0 +1,48 @@
+.achievement{
+    .achievement-blog{
+        .detail{
+            @include short-query(1199px , 1299px) {
+                font-size: 28px;
+            }
+            @include short-query(992px , 1199px) {
+                font-size: 22px;
+            }
+
+        }
+    }
+}
+.achievement-2{
+    .achievement-detail{
+        .ellipse{
+            width: 215px;
+            height: 215px;
+            margin: 0 auto;
+            border-radius: 115px;
+            border: 5px solid $gray-4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .space-mar{
+            margin-top: -270px;
+            @include media-query(992px) {
+                margin: 0 auto;
+            }
+        }
+        .space-mar2{
+            margin-top: -125px;
+            @include media-query(992px) {
+                margin: 0;
+            }
+        }
+    }
+}
+.dark{
+    .achievement-2{
+        .achievement-detail{
+            .ellipse{
+                border: 5px solid $black-1;
+            }
+        }
+    }
+}

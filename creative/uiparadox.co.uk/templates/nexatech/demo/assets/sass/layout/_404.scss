@@ -1,0 +1,22 @@
+.block-404{
+    .text{
+        .img-dark{
+            display: none;
+        }
+    }
+}
+.dark{
+    .block-404{
+        .text{
+            .img-light{
+                display: none;
+            }
+            .img-dark{
+                display: block;
+                margin: 0 auto;
+                padding-bottom: 100px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,54 @@
+.sec-title{
+    &.background{
+        padding: 28px;
+        background: $gray-4;
+        height: 720px;
+        border-radius: 0 0 720px 720px;
+        @include media-query(1199px) {
+            height: 550px;
+            border-radius: 0 0 550px 550px;
+        }
+        @include media-query(992px) {
+            height: 470px;
+            border-radius: 0 0 470px 470px;
+            margin-bottom: 40px;
+        }
+        @include media-query(768px) {
+            border-radius: 0 0 100px 100px;
+        }
+        @include media-query(580px) {
+            height: auto;
+        }
+        h2{
+            @include media-query(1299px) {
+                font-size: 84px;
+            }
+            @include media-query(1199px) {
+                font-size: 52px;
+            }
+            @include media-query(768px) {
+                font-size: 42px;
+            }
+            @include media-query(490px) {
+                font-size: 32px;
+            }
+        }
+        p{
+            @include media-query(1199px) {
+                font-size: 16px;
+            }
+            @include media-query(490px) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+.dark{
+    .sec-title{
+        &.background{
+            background: $black-1;
+        }
+    }
+}
+
+

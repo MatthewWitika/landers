@@ -1,0 +1,26 @@
+.faq{
+    .text-block{
+        padding: 25px ;
+        .accordion-button{
+            display: block;
+            position: relative;
+            &::before{
+                position: absolute;
+                right: 0;
+                top: 0;
+                content: '\f13a';
+                font-family: $font-awesome;
+                font-weight: bold;
+                transition: $transition;
+                transform: rotate(-180deg);
+            }
+            &.collapsed{
+
+                &::before{
+                    transform: rotate(0);
+    
+                }
+            }
+        }
+    }
+}
